@@ -1,0 +1,148 @@
+.header {
+  height: 100%;
+  max-height: 678px;
+  padding-top: 64px;
+  text-align: center;
+  background-image: url(../images/3-layers.png);
+  background-size: 140vw 195vh;
+  background-position: 85% 28%;
+}
+
+.container {
+  background: transparent;
+}
+
+.consult {
+  padding-top: 55px;
+}
+
+.header-text {
+  padding-top: 37px;
+}
+
+.action {
+  padding-top: 30px;
+  padding-bottom: 181px;
+}
+
+.logo {
+  width: 116px;
+  height: 55px;
+}
+
+.header-consult-button {
+  width: 100%;
+  max-width: 353px;
+  padding: 17px 25px 19px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, #59a5df 0%, #71b6eb 100%);
+  color: #ffffff;
+  font-family: 'Gilroy SmBd';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 359px) {
+  .header-consult-button {
+    max-width: 280px;
+    padding: 17px 10px 17px 10px;
+    font-size: 18px;
+  }
+}
+
+.header-title,
+.sub-title {
+  color: #55595a;
+  font-family: 'Orchidea Pro SmBd';
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 359px) {
+  .header-title {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .header-title {
+    font-size: 38px;
+    letter-spacing: 2.1px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-title {
+    font-size: 75px;
+    letter-spacing: 4.19px;
+  }
+}
+
+.sub-title {
+  font-size: 50px;
+  letter-spacing: 0.47px;
+}
+
+@media screen and (max-width: 359px) {
+  .sub-title {
+    font-size: 23px;
+    letter-spacing: 0.2px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .sub-title {
+    font-size: 25px;
+    letter-spacing: 0.24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sub-title {
+    font-size: 50px;
+    letter-spacing: 0.47px;
+  }
+}
+
+.action-button {
+  position: relative;
+  width: 100%;
+  max-width: 302px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: #755d2e;
+  font-family: 'Gilroy SmBd';
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 359px) {
+  .action-button,
+  .action-button > img {
+    max-width: 280px;
+  }
+}
+
+.header-pop-up {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
