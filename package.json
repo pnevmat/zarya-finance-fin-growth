@@ -2,13 +2,13 @@
   "name": "zarya-finance-fin-growth",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "homepage": "https://pnevmat.github.io/zarya-finance-fin-growth",
+  "source": "src/*.html",
+  "homepage": "https://github.com/pnevmat",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url=/zarya-finance-fin-growth/",
-    "deploy": "gh-pages -d dist"
+    "start": "parcel",
+    "build": "parcel build",
+    "predeploy": "npm run build -- --public-url=/pnevmat/",
+    "deploy": "netlify deploy -p"
   },
   "repository": {
     "type": "git",
@@ -16,16 +16,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/pnevmat/zarya-finance-fin-growth/issues"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "parcel-bundler": "^1.12.4",
-    "posthtml-include": "^1.4.3",
-    "sass": "^1.26.9"
-  },
-  "dependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.14.0",
+    "posthtml-include": "^2.0.1",
+    "sass": "^1.101.0"
   }
 }
