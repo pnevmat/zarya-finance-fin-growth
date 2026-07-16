@@ -40,6 +40,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+dist/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -123,7 +124,6 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # pnpm
 .pnpm-store
@@ -144,3 +144,7 @@ vite.config.ts.timestamp-*
 
 # Local Netlify folder
 .netlify
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
